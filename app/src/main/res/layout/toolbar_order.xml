@@ -1,0 +1,108 @@
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/toolbarmenucontainer"
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+
+    <LinearLayout
+        android:id="@+id/menuLinearLayout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight = "1"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/menuBtn"
+            android:onClick="menu"
+            android:src="@drawable/menu"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/menuTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/menu"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="1dp" />
+
+    <LinearLayout
+        android:id="@+id/orderLinearLayout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight = "1"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/orderBtn"
+            android:onClick="order"
+            android:src="@drawable/order"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/orderTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/order_toolbar"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="1dp" />
+
+    <LinearLayout
+        android:id="@+id/shoppingCartLinearLayout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight = "1"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/shoppingCartBtn"
+            android:onClick="shoppingCart"
+            android:src="@drawable/shopping_cart"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/shoppingCartTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cart"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.Toolbar>

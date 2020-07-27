@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "312160016787",
+    "firebase_url": "https://sushiapp-d99a2.firebaseio.com",
+    "project_id": "sushiapp-d99a2",
+    "storage_bucket": "sushiapp-d99a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312160016787:android:e82b4103c9306232723066",
+        "android_client_info": {
+          "package_name": "com.archu.sushiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312160016787-e0625pf2uj54mrnhntsjjinmhlsdsrvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archu.sushiapp",
+            "certificate_hash": "7ce3078b45fef1f4b7cdad46a0a881d90617db1f"
+          }
+        },
+        {
+          "client_id": "312160016787-b8b9jofhlu8vl45u86uts12saesn3p4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE00IQYso2E75gYLtplx9Wjl3zhW9XnlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312160016787-b8b9jofhlu8vl45u86uts12saesn3p4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

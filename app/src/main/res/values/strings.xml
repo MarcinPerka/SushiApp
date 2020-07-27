@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SushiApp</string>
+    <!-- Please refer to https://www.projectoxford.ai/ to get your subscription key -->
+    <!-- If you have one subscription key, you can add it here to use the service -->
+    <string name="subscription_key">SUBSCRIPTION_KEY</string>
+    <string name="subscription_apiroot">API_URL_HERE/vision/v1.0</string>
+    <string name="copyrights">
+        Copyrights @ Marcin Perka</string>
+    <string name="btnAboutUs">O nas</string>
+    <string name="btnMenu">Menu</string>
+    <string name="btnLocation">Lokalizacje</string>
+    <string name="btnVocabulary">Typy Sushi</string>
+    <string name="title_activity_payment_details">Payment Details</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_paypal">PayPal</string>
+    <string name="sushiContactInfo"><b>Kyoto Sushi</b>\nXXXXX XXXX\nNIP: 987654321\nGodziny otwarcia\nponiedziałek – niedziela\n12.00 – 22.00\n<b><font color="#FFD782">+48 200 20 20</font></b>\n<u>mail@gmail.com</u></string>
+    <string name="sushiAboutUsInfo"><b><font size="18">NASZ POMYSŁ NA SUSHI</font></b>\n<b>Sushi Kyoto</b> to wyjątkowe miejsce na mapie łódzkich lokali gastronomicznych. Dlaczego? Nasza restauracja została zaprojektowana w klimacie japońskim. Nawiązuje do motywów natury: ziemi, drewna oraz zieleni, co pozwoli Ci choć na chwilę przenieść się do Krainy Kwitnącej Wiśni. <b>Nasze Sushi charakteryzuje staranność przygotowania,</b> różnorodne składniki, które pozyskujemy od najlepszych polskich dostawców, estetyka, precyzja, wiedza i doświadczenie. Naszą obsługę cechuje kultura osobista, komuniktywność, kreatywność i przede wszystkim pasja i zamiłowanie do azjatyckiej kultury i smaków. <b>Najlepszej jakości ryby,</b> wyjątkowe desery, wykwintne wina, to wszystko czego zasmakujesz w naszym lokalu.\n<b><font size="18">NÓŻ SUSHI MASTERA</font></b>\nSushi Master niczym byłby bez swojego najważniejszego narzędzia pracy – noża.<b> Noże, którymi posługują się nasi Sushi Masterzy</b> są wykonane ze stali węglowej, która używana jest do tworzenia mieczy samurajskich oraz tradycyjnej japońskiej broni. Jest to bardzo trwały materiał, który przy odpowiedniej dbałości pozwala na wieloletnią pracę.<bold> Każdy Sushi Master posiada swój spersonalizowany nóż</bold> z indywidualnie rzeźbioną, drewnianą rękojeścią. Każdy nóż jest unikatowy i dostosowany do sposobu krojenia kucharza.</string>
+    <string name="priceInfo"><b>Cena w zł</b></string>
+    <string name="nameInfo"><b>Nazwa potrawy</b>></string>
+    <string name="headerInfo"><u>Kyoto Sushi</u>\n<i>Odkryj smaki Japonii</i></string>
+    <string name="sushi_vocabulary_title"><i>Księga Mistrza Kyoto</i></string>
+    <string name="makiInfo">Maki ze swoją charakterystyczną czarną obwódką odpowiada chyba najbardziej powszechnym wyobrażeniom o japońskim sushi. Podobnie, jak w przypadku nigiri, jego nazwa nawiązuje do sposobu przygotowywania potrawy. Maki czyli sushi zawijane, to nic innego, jak nigiri owinięte prasowanymi algami morskimi nori. Ryżowe wałeczki formowane są przy pomocy bambusowej maty, a następnie krojone na kawałki. W podstawowej wersji – hoso–maki, czyli cienkie maki – plasterki sushi mają ok. 2–3 cm grubości. W środku znaleźć można zarówno owoce morza, jak i warzywa, takie jak karczoch, awokado, ogórek czy pędy bambusa.</string>
+    <string name="takePhoto">Zrób zdjęcie</string>
+    <string name="selectImageInAlbum">Wybierz zdjęcie z albumu</string>
+    <string name="cartTxt">cartTxt</string>
+    <string name="placeOrderBtn">Złóż zamówienie</string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="username_mail">MAIL_HERE</string>
+    <string name="password_mail">PASSWORD_HERE</string>
+    <string name="sender_mail">SENDER_HERE</string>
+    <string name="cart_empty">Twój koszyk jest w tej chwili pusty. Gdy dodasz do niego produkty, pojawią się one w tym koszyku.</string>
+    <string name="cart_not_empty">Twoje zamówienie:</string>
+    <string name="delivery_error">Dowozimy tylko w Łodzi. Doprecyzuj dane o ulicy.</string>
+    <string name="delivery_goal">Łódź</string>
+    <string name="delivery_error_time">Niestety trafiłeś na nieodpowiednią godzinę.\nJuż nie pracujemy albo jeszcze nie zaczęliśmy pracować.\nSpróbuj później.</string>
+    <string name="ocr_error">Rozpoznanie nie powiodło się.</string>
+    <string name="ocr_no_code">Na zdjęciu nie odnaleziono kodu rabatowego.</string>
+    <string name="ocr_analyze">Trwa rozpoznawanie...</string>
+    <string name="paypal_key">PAYPAL_KEY_HERE</string>
+    <string name="mail_sent">Złożyłeś zamówienie. Wysłaliśmy do Ciebie maila ze szczegółami dowozu.</string>
+    <string name="placed_order">Złożone zamówienie</string>
+    <string name="handwritten_recognize_code_btn">Kod Rabatowy\nrecznie napisany</string>
+    <string name="recognize_code_btn">Kod Rabatowy\nobrazek</string>
+    <string name="order">Zamawiam</string>
+    <string name="last_step">Ostatni\nkrok</string>
+    <string name="first_name_hint">Imię</string>
+    <string name="last_name_hint">Nazwisko</string>
+    <string name="phone_hint">Numer telefonu</string>
+    <string name="street_hint">Ulica</string>
+    <string name="house_number_hint">Numer domu</string>
+    <string name="apartment_number_hint">Numer mieszkania</string>
+    <string name="accept">Zatwierdź</string>
+    <string name="cart">Koszyk</string>
+    <string name="contact">Kontakt</string>
+    <string name="choose_payment_type">Wybierz typ płatności:</string>
+    <string name="paypal">PayPal</string>
+    <string name="on_delivery_payment">Płatność przy odbiorze</string>
+    <string name="nigiri">Nigiri</string>
+    <string name="futomaki">Futo-maki</string>
+    <string name="maki">Maki</string>
+    <string name="uramaki">Ura-maki</string>
+    <string name="menu">Menu</string>
+    <string name="location">Lokalizacje</string>
+    <string name="order_toolbar">Zamówienie</string>
+</resources>
+
