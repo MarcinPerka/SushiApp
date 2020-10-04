@@ -11,12 +11,12 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.archu.sushiapp.About.AboutUsFragment;
-import com.archu.sushiapp.Cart.CartFragment;
-import com.archu.sushiapp.Contact.ContactFragment;
-import com.archu.sushiapp.Meal.MenuFragment;
-import com.archu.sushiapp.Map.MapsActivity;
-import com.archu.sushiapp.SushiVocabulary.SushiVocabularyFragment;
+import com.archu.sushiapp.about.AboutUsFragment;
+import com.archu.sushiapp.cart.CartFragment;
+import com.archu.sushiapp.contact.ContactFragment;
+import com.archu.sushiapp.meal.MenuFragment;
+import com.archu.sushiapp.maps.MapsActivity;
+import com.archu.sushiapp.sushivocabulary.SushiVocabularyFragment;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.Objects;

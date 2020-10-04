@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".Payment.PaymentDetails">
+    tools:context=".payment.PaymentDetails">
 
     <LinearLayout
         android:orientation="vertical"

@@ -48,13 +48,13 @@
             android:value="GEO_API_KEY_HERE"/>
 
         <activity
-            android:name=".Payment.PaymentDetails"
+            android:name=".payment.PaymentDetails"
             android:label="@string/title_activity_payment_details"></activity>
         <activity
-            android:name=".Payment.PayPalActivity"
+            android:name=".payment.PayPalActivity"
             android:label="@string/title_activity_paypal"></activity>
         <activity
-            android:name=".Map.MapsActivity"
+            android:name=".maps.MapsActivity"
             android:label="@string/title_activity_maps"></activity>
         <activity android:name=".MainActivity"
             android:configChanges="orientation"
@@ -67,7 +67,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".OCR.HandwritingRecognizeActivity"
+            android:name=".ocr.HandwritingRecognizeActivity"
             android:label="Handwriting"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
@@ -77,7 +77,7 @@
                 android:value="com.archu.sushiapp.MainActivity" />
         </activity>
         <activity
-            android:name=".OCR.RecognizeActivity"
+            android:name=".ocr.RecognizeActivity"
             android:label="Recognize"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
@@ -87,7 +87,7 @@
                 android:value="com.archu.sushiapp.MainActivity" />
         </activity>
         <activity
-            android:name=".OCR.SelectImageActivity"
+            android:name=".ocr.SelectImageActivity"
             android:label="Select image"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />

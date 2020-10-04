@@ -11,7 +11,7 @@
     android:baselineAligned="false"
     android:orientation="vertical"
     android:background="@drawable/background"
-    tools:context="com.archu.sushiapp.OCR.SelectImageActivity">
+    tools:context="com.archu.sushiapp.ocr.SelectImageActivity">
 
     <RelativeLayout android:layout_width="match_parent"
         android:layout_height="match_parent"
